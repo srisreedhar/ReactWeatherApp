@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WeatherToday from './components/WeatherToday';
 import Navbar from './components/Navbar';
 
 
-function App() {
-  return (
-    <div>
-    <Navbar/>
-    <WeatherToday/>
-    </div>
+class HomePage extends Component {
+  
+  render() { 
+    return (
+<Navbar/>
 
-  );
+      );
+  }
 }
-
-export default App;
+ 
+export default HomePage;
