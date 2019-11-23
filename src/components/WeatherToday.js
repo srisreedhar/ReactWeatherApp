@@ -4,7 +4,7 @@ import { Container} from 'reactstrap';
 
 // gets current day's weather from the api
 
-class weatherToday extends Component {
+class WeatherToday extends Component {
     
     render() { 
         return ( 
@@ -15,4 +15,4 @@ class weatherToday extends Component {
     }
 }
  
-export default weatherToday;
+export default WeatherToday;

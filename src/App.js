@@ -19,6 +19,11 @@ class HomePage extends Component {
     error:"API Error - check Inputs provided"
   }
 
+  getData = async(event)=>{
+    event.preventDefault();
+    const city= event.target.elements.formCity.value;
+    
+  }
 
   
   render() { 
