@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import  Weekweather from "./WeekWeather";
+
 // navbar 
 
 class Navbar extends Component {
@@ -23,7 +25,7 @@ class Navbar extends Component {
                             <a class="nav-link" href="#">Today's Weather <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">WeekWeather</a>
+                            <a class="nav-link" href="/Weekweather">WeekWeather</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
