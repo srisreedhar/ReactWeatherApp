@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // gets current day's weathe from the api
-class weathertoday extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
+class weatherToday extends Component {
+    
     render() { 
-        return (  );
+        return ( 
+            <h3>Hello from weatherToday Component</h3>
+         );
     }
 }
  
-export default weathertoday;
+export default weatherToday;

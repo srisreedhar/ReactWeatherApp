@@ -1,13 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WeatherToday from './components/WeatherToday';
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-         Sphoorthi Oum </header>
+    <div>
+    <Navbar/>
+    <WeatherToday/>
     </div>
+
   );
 }
 
