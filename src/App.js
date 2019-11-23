@@ -24,7 +24,7 @@ class HomePage extends Component {
     const city= event.target.elements.cityForm.value;
     const country=event.target.elements.formCountry.value;
     // secure API key before pushing
-    const apiUrl = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${city},${country}&mode=json&units=metric&APPID=2d80cf7142a085e6c34f383205d35118`;
+    const apiUrl = `http://api.openweathermap.org/data/2.5/forecast/daily?q=${city},${country}&mode=json&units=metric&APPID=APIKEYHERE`;
     const apiresponse= await fetch(apiUrl);
     const jsondata= await apiresponse.json();
     console.log(jsondata);

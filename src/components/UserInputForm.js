@@ -17,7 +17,7 @@ class UserInput extends Component {
                 </FormGroup>
                 <FormGroup>
                     <Label for="Enter Country"> Country </Label> 
-                    <Input type="text" name="countryForm" id="formCcountry"></Input>
+                    <Input type="text" name="countryForm" id="formCountry"></Input>
                 </FormGroup>
                 <FormGroup>
                     <Button>
