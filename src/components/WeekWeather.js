@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -6,8 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Weekweather extends Component {
     render() { 
-        return ( 
+        return (
+            <Container>
             <h6>This is the entire week weather</h6>
+            </Container> 
          );
     }
 }

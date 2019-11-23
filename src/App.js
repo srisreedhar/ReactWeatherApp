@@ -6,6 +6,20 @@ import Navbar from './components/Navbar';
 
 
 class HomePage extends Component {
+
+  state={
+    temparature:0,
+    maxTemp:0,
+    minTemp:0,
+    description:"Cannot Find Description, No data !",
+    city:"Hyderabad",
+    mapLon:undefined,
+    mapLat:undefined,
+    country:"India",
+    error:"API Error - check Inputs provided"
+  }
+
+
   
   render() { 
     return (
